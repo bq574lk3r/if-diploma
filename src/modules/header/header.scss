@@ -1,0 +1,60 @@
+@import '/src/styles/variables.scss';
+.header {
+  background-color: $white;
+  padding: 30px 105px 105px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: 0 auto;
+  .header-left {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      fill: $general-red;
+      margin-right: 12px;
+    }
+    .search {
+      display: flex;
+      align-items: center;
+      border-style: solid;
+      border-width: 2px;
+      border-color: $secondary-gray;
+      border-radius: 8px;
+      width: 70%;
+
+      & svg {
+        fill: $secondary-gray;
+        margin: 12px;
+      }
+      input {
+        font-size: 16px;
+        border-style: none;
+        background-color: $white;
+        margin-right: 12px;
+        outline: none;
+        min-width: 200px;
+        width: 100%;
+        &::placeholder {
+          color: $secondary-gray;
+        }
+      }
+    }
+  }
+  .header-right {
+    display: flex;
+    justify-content: flex-end;
+    & a {
+      font-family: $fontFamily;
+      font-weight: 700;
+      margin-left: 48px;
+      color: $black;
+      text-decoration: none;
+      &:active {
+        color: $general-red;
+      }
+    }
+  }
+}
