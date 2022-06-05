@@ -1,3 +1,54 @@
-body {
+@import '/src/styles/variables.scss';
+* {
   margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: $fontFamily;
+  font-size: 38px;
+  line-height: 51.75px;
+  font-weight: 700;
+  color: $black;
+}
+
+h2 {
+  font-family: $fontFamily;
+  font-size: 28px;
+  line-height: 38.13px;
+  font-weight: 600;
+  color: $black;
+}
+
+h3 {
+  font-family: $fontFamily;
+  font-size: 24px;
+  line-height: 32.68px;
+  font-weight: 700;
+  color: $black;
+}
+
+button {
+  background-color: $general-red;
+  font-family: $fontFamily;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: $white;
+  padding: 10px;
+  min-width: 185px;
+  border-style: none;
+  border-radius: 8px;
+  transition: background-color 0.1s ease-in;
+  transition: opacity 0.2s ease-out;
+  cursor: pointer;
+  &:active {
+    color: $general-red;
+    background-color: $white;
+  }
+  &:hover{
+    opacity: 0.8;
+  }
 }

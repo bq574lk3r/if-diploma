@@ -1,7 +1,7 @@
 @import '/src/styles/variables.scss';
 .header {
   background-color: $white;
-  padding: 30px 105px 105px 70px;
+  padding: 30px 105px 30px 105px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,7 +52,8 @@
       margin-left: 48px;
       color: $black;
       text-decoration: none;
-      &:active {
+      transition: color 0.2s ease-out;
+      &:hover {
         color: $general-red;
       }
     }
