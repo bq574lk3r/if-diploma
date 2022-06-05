@@ -1,0 +1,35 @@
+@import '/src/styles/variables.scss';
+footer{
+    width: 100%;
+    background-color: $secondary-blue;
+    .footer-content{
+        margin: 0 auto;
+        padding: 40px 105px 40px 105px ;
+        max-width: 1240px;
+        display: flex;
+        justify-content: space-between;
+        .left-box{
+            width: 50%;
+            min-width: 400px;
+            display: flex;
+            justify-content: space-between;
+            ul{
+                h4{
+                    margin:0 0 16px 0;
+                }
+                li{
+                    font-family: $fontFamily;
+                    color: $black;
+                    margin: 0 8px 8px 0;
+                    list-style-type: none;
+                }
+            }
+        }
+        .right-box{
+            svg{
+                margin:26px 16px 0 0;
+                fill: $black
+            }
+        }
+    }
+}
