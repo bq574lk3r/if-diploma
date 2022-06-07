@@ -1,0 +1,21 @@
+@import '/src/styles/variables.scss';
+
+.user-interface {
+  min-height: calc(100vh - 106px);
+  padding: 0 105px;
+  max-width: 1440px;
+  margin: 0 auto;
+  .waiting-box,
+  .books-box {
+    background-color: $secondary-white;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 36px 0 36px 0;
+    h6 {
+      width: 100%;
+      margin: 0 0 0 16px;
+    }
+  }
+}

@@ -16,6 +16,13 @@
         justify-content: space-evenly;
         width: 45%;
         min-width: 350px;
+        .start-page-text{
+            font-family: $fontFamily;
+            font-size: 28px;
+            line-height: 38.13px;
+            font-weight: 600;
+            color: $black;
+        }
     }
     & .bg-img{
         width: 100%;

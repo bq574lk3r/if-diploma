@@ -4,12 +4,14 @@ import '../styles/App.scss';
 import Header from './Header/Header';
 import StartPage from './StartPage/StartPage';
 import Footer from './Footer/Footer';
+import UserInterface from './UserInterface/UserInterface';
 
 function App() {
   return (
     <div className="App">
       <Header />
       {/* <StartPage /> */}
+      <UserInterface />
       <Footer />
     </div>
   );

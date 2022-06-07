@@ -1,0 +1,21 @@
+@import '/src/styles/variables.scss';
+.book {
+  margin: 16px;
+  width: 131px;
+  .book-cover {
+    img {
+      object-fit: contain;
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+  .bookname {
+    color: $black;
+    font-family: $fontFamily;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.34px;
+    margin: 8px 0 8px 0;
+    word-wrap: break-word;
+  }
+}

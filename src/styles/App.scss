@@ -6,20 +6,21 @@
 body {
   margin: 0 auto;
 }
-h1 {
+
+h1{
   font-family: $fontFamily;
-  font-size: 38px;
-  line-height: 51.75px;
+  font-size: 40px;
+  line-height: 54.47px;
   font-weight: 700;
   color: $black;
 }
 
-h2 {
+h2{
   font-family: $fontFamily;
-  font-size: 28px;
-  line-height: 38.13px;
+  font-size: 24px;
+  line-height: 32.68px;
   font-weight: 600;
-  color: $black;
+  color: $general-red;
 }
 
 h3 {
@@ -30,10 +31,26 @@ h3 {
   color: $black;
 }
 
-h4{
+h4 {
   font-family: $fontFamily;
   font-size: 18px;
   line-height: 24.51px;
+  font-weight: 700;
+  color: $black;
+}
+
+h5 {
+  font-family: $fontFamily;
+  font-size: 38px;
+  line-height: 51.75px;
+  font-weight: 700;
+  color: $black;
+}
+
+h6 {
+  font-family: $fontFamily;
+  font-size: 20px;
+  line-height: 27.24px;
   font-weight: 700;
   color: $black;
 }
@@ -55,7 +72,15 @@ button {
     color: $general-red;
     background-color: $white;
   }
-  &:hover{
+  &:hover {
     opacity: 0.8;
+  }
+  &.btn-chk-status{
+    min-width: 100%;
+    line-height:16.34px;
+    color: $white;
+    background-color: $secondary-gray;
+    font-size: 12px;
+    padding: 8px;
   }
 }
