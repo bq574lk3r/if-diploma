@@ -1,6 +1,6 @@
 import React from 'react';
 import '../UserInterface/UserInterface.scss';
-import Book from '../Book/Book';
+import Book from './Book/Book';
 
 export default function UserInterface() {
   return (

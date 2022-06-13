@@ -5,12 +5,14 @@ import Header from './Header/Header';
 import StartPage from './StartPage/StartPage';
 import Footer from './Footer/Footer';
 import UserInterface from './UserInterface/UserInterface';
+import Library from './Library/Library';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* <StartPage /> */}
+      <StartPage />
+      <Library/>
       <UserInterface />
       <Footer />
     </div>

@@ -1,0 +1,54 @@
+@import '/src/styles/variables.scss';
+.library-book {
+  font-family: $fontFamily;
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+  width: 256px;
+  height: 185px;
+  .book-cover {
+    img {
+      height: 100%;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+  }
+  .book-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 114px;
+    .book-status {
+      text-align: center;
+      width: 100px;
+      padding: 5px;
+      color: $black;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 16.34px;
+      border-radius: 24px;
+      border-style: solid;
+      border-width: 2px;
+      border-color: $general-blue;
+    }
+    .book-holder {
+      font-size: 10px;
+      font-weight: 400px;
+      line-height: 13.62px;
+      color: $gray;
+    }
+    .book-title {
+      color: $black;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 16.07px;
+
+    }
+    .book-author {
+      color: $gray;
+      font-size: 12px;
+      line-height: 16.34px;
+      font-weight: 400;
+    }
+  }
+}

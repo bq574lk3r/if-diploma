@@ -3,6 +3,7 @@ import './SignUp_LogIn.scss';
 
 import { Routes, Route, Link } from 'react-router-dom';
 import StartPage from '../StartPage/StartPage';
+import Library from '../Library/Library';
 
 export default function LogIn() {
   return (
@@ -18,11 +19,14 @@ export default function LogIn() {
           Password
           <input type="password" id="password" />
         </label>
-        <button>Log In</button>
+        <Link to="/library"><button>Log In</button></Link>
       </form>
       <div className="bg-clr"></div>
       <Routes>
         <Route path="/index" element={<StartPage />} />
+      </Routes>
+      <Routes>
+        <Route path="/library" element={<Library />} />
       </Routes>
     </section>
   );

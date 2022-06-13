@@ -1,7 +1,7 @@
 @import '/src/styles/variables.scss';
 
 .user-interface {
-  min-height: calc(100vh - 106px);
+  min-height: calc(100vh - 106px - 235px);
   padding: 0 105px;
   max-width: 1440px;
   margin: 0 auto;
